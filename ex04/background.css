@@ -1,0 +1,6 @@
+input[type=button]{
+    width: 30%;
+    height: 30px;
+    color:white;
+    background-color: blue;
+}
