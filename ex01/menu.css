@@ -1,0 +1,40 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.menu-des-roulants{
+    width: 40%;
+    margin: 0 auto;
+    background-color: rgb(177, 220, 246);
+    margin-left: auto;
+    margin-right: auto;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    list-style-type: none;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+nav ul::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #ccc;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    background-color: rgb(255, 206, 147);
+}
