@@ -1,0 +1,52 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    column-width: 25%;
+}
+.img-reseau{
+    display: inline-block;
+    width: 23%;
+    height: 30px;
+    
+}
+.cont-img{
+    background-image: url("https://img-19.commentcamarche.net/WNCe54PoGxObY8PCXUxMGQ0Gwss=/480x270/smart/d8c10e7fd21a485c909a5b4c5d99e611/ccmcms-commentcamarche/20456790.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    width: 100%;
+}
+.cont-titre{
+    font-size: 40px;
+    padding: 1%;
+    width: 100%;
+}
+.mid-text{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    width: 100%;
+}
+.second-text{
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+}
+.third-text{
+    text-align: center;
+    font-size: 40px; 
+    width: 100%;  
+}
+.img{
+    background-image: url("reseaux.jpeg");
+    background-size: contain;
+   height: 600px;
+   background-repeat: no-repeat;
+
+}
